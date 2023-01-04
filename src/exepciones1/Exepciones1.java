@@ -25,7 +25,7 @@ public class Exepciones1 {
             int i = input.nextInt();
             System.out.println(numeros[i]);
         }
-        catch(java.lang.ArrayIndexOutOfBoundsException ex2){
+        catch(java.lang.ArrayIndexOutOfBoundsException|java.lang.ArithmeticException ex2){
             System.out.println("El ìndice està fuera de rango");
         }
         catch(RuntimeException ex1){
